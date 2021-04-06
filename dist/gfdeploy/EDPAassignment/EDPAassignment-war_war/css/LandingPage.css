@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 11, 2020, 10:22:46 PM
+    Author     : Ee ren
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 35vw;
+    margin-top: 15vh;
+}
+.logo {
+    width: 10vw;
+}
+.div {
+    height: 80vh;
+    margin: 10vh 8vw;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    
+}
+.title {
+    width: 35vw;
+    margin-top: 15vh;
+}
+h3 {
+    color: #777;
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.button {
+    background-color: #6c7ae0;
+    padding: 1.2vh 1.2vw;
+    border-radius: 3px;
+    color:#fff;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    border:none;
+    transition: 0.3s;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+    
+}
+a {
+    margin: 20vh 0px 0 0;
+}
+a:nth-child(2){
+    margin-left: 20px;
+}
+.button:hover {
+    background-color: #fff;
+    color: #6c7ae0;
+}
+
+.flex {
+    display:flex;
+    justify-content: flex-start;
+}

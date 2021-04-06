@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 18, 2020, 3:38:03 PM
+    Author     : Ee ren
+*/
+
+.flex-spacebetween {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 88vw;
+    align-items: center;
+}
+.topBorder {
+    border-top: #777 2px solid;
+    padding:0;
+    margin: 2vh auto;
+    width: 90vw;
+}
+.customer, .gap {
+    margin: 2vh auto;
+    width: 87vw;
+}
+.gap {
+    margin: 4vh auto 0 auto;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-align: left;
+    
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    text-align: right;
+    padding: 2vh;    
+    padding-bottom: 5vh;
+    width: 88vw;
+    border-top: 2px solid #777 !important;
+    
+    
+}
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+}
+table {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    width: 85vw;
+    margin: 2vh auto;
+}
+th {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+td {
+    padding: 5px;
+    text-transform: uppercase;
+}
+.column1 {
+    width: 10%;
+    text-align: center;
+}
+.column2 {
+    width: 50%;
+}
+.column3 {
+    width: 10%;
+    text-align: center;
+    
+}
+.column4 {
+    width: 30%;
+    text-align: right;
+    
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #6c7ae0;
+    color: #fff;
+    border-radius: 3px;
+    transition: .2s;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: solid 2px #fff;
+    margin-left: 10px;
+    height: 8vh;
+}
+button:hover {
+    border: solid 2px #6c7ae0;
+    background-color: #fff;
+    color: #6c7ae0;
+}
